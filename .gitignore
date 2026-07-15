@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+*.spec
+
+# PyInstaller outputs are attached to GitHub Releases instead of source control.
+dist/
+
+# Local validation outputs.
+tests/sample_report*.html
+tests/sample_report*.json
