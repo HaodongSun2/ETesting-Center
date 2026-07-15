@@ -1,0 +1,1 @@
+This is a benign sample file for ETesting Center validation.
