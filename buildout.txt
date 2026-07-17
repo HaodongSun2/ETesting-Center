@@ -1,0 +1,114 @@
+69 DEPRECATION: Running PyInstaller as admin is not necessary nor sensible. Run PyInstaller from a non-administrator terminal. PyInstaller 7.0 will block this.
+280 INFO: PyInstaller: 6.21.0, contrib hooks: 2026.6
+280 INFO: Python: 3.11.8
+301 INFO: Platform: Windows-10-10.0.26200-SP0
+301 INFO: Python environment: C:\Program Files\Tencent\Marvis\MarvisAgent\1.0.1100.340\runtime\python311
+594 INFO: Module search paths (PYTHONPATH):
+['G:\\ETestingCenter',
+ 'C:\\Program '
+ 'Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\python311.zip',
+ 'C:\\Program '
+ 'Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\DLLs',
+ 'C:\\Program '
+ 'Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib',
+ 'C:\\Program '
+ 'Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311',
+ 'C:\\Program '
+ 'Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages',
+ 'G:\\ETestingCenter\\src']
+1120 INFO: Appending 'binaries' from .spec
+1270 INFO: Appending 'datas' from .spec
+1273 INFO: checking Analysis
+1361 INFO: Building because G:\ETestingCenter\src\etesting_center\data\hashes.json changed
+1361 INFO: Looking for Python shared library...
+1361 INFO: Using Python shared library: C:\Program Files\Tencent\Marvis\MarvisAgent\1.0.1100.340\runtime\python311\python311.dll
+1361 INFO: Running Analysis Analysis-00.toc
+1361 INFO: Target bytecode optimization level: 0
+1361 INFO: Initializing module dependency graph...
+1364 INFO: Initializing module graph hook caches...
+1399 INFO: Analyzing modules for base_library.zip ...
+3152 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PyInstaller\\hooks'
+3273 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PyInstaller\\hooks'
+5577 INFO: Processing standard module hook 'hook-math.py' from 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PyInstaller\\hooks'
+5733 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PyInstaller\\hooks'
+8249 INFO: Caching module dependency graph...
+8311 INFO: Analyzing G:\ETestingCenter\src\etesting_center\main.py
+8439 INFO: Processing standard module hook 'hook-PySide6.py' from 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PyInstaller\\hooks'
+8778 INFO: Processing standard module hook 'hook-shiboken6.py' from 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PyInstaller\\hooks'
+9023 INFO: Processing standard module hook 'hook-PySide6.QtNetwork.py' from 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PyInstaller\\hooks'
+13234 INFO: Processing standard module hook 'hook-PySide6.QtCore.py' from 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PyInstaller\\hooks'
+19123 INFO: Processing standard module hook 'hook-PySide6.QtGui.py' from 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PyInstaller\\hooks'
+45828 INFO: Processing standard module hook 'hook-PySide6.QtWidgets.py' from 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PyInstaller\\hooks'
+50753 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PyInstaller\\hooks'
+50981 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PyInstaller\\hooks'
+51357 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PyInstaller\\hooks'
+51751 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PyInstaller\\hooks'
+51929 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.serialization'
+51929 ERROR: Hidden import 'cryptography.hazmat.primitives.serialization' not found
+51929 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.serialization.pkcs7'
+51929 ERROR: Hidden import 'cryptography.hazmat.primitives.serialization.pkcs7' not found
+51929 INFO: Analyzing hidden import '_cffi_backend'
+51931 ERROR: Hidden import '_cffi_backend' not found
+51931 INFO: Analyzing hidden import 'docx.opc.constants'
+51931 ERROR: Hidden import 'docx.opc.constants' not found
+51931 INFO: Analyzing hidden import 'docx.opc.part'
+51931 ERROR: Hidden import 'docx.opc.part' not found
+51931 INFO: Analyzing hidden import 'docx.opc.packuri'
+51931 ERROR: Hidden import 'docx.opc.packuri' not found
+51931 INFO: Analyzing hidden import 'docx.parts.document'
+51931 ERROR: Hidden import 'docx.parts.document' not found
+51931 INFO: Analyzing hidden import 'docx.parts.numbering'
+51932 ERROR: Hidden import 'docx.parts.numbering' not found
+51932 INFO: Analyzing hidden import 'docx.parts.styles'
+51932 ERROR: Hidden import 'docx.parts.styles' not found
+51932 INFO: Analyzing hidden import 'lxml'
+51934 ERROR: Hidden import 'lxml' not found
+51934 INFO: Analyzing hidden import 'lxml.etree'
+51935 ERROR: Hidden import 'lxml.etree' not found
+51935 INFO: Analyzing hidden import 'lxml._elementpath'
+51937 ERROR: Hidden import 'lxml._elementpath' not found
+51937 INFO: Processing module hooks (post-graph stage)...
+52337 INFO: Performing binary vs. data reclassification (438 entries)
+52921 INFO: Looking for ctypes DLLs
+52956 INFO: Analyzing run-time hooks ...
+52959 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+52962 INFO: Including run-time hook 'pyi_rth_pyside6.py' from 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+52965 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+52969 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PyInstaller\\hooks'
+52974 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+52978 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+52997 INFO: Creating base_library.zip...
+53719 INFO: Looking for dynamic libraries
+54220 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\shiboken6']
+54220 INFO: Extra DLL search directories (PATH): ['C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PySide6']
+67234 WARNING: Library not found: could not resolve 'fbclient.dll', dependency of 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PySide6\\plugins\\sqldrivers\\qsqlibase.dll'.
+67234 WARNING: Library not found: could not resolve 'MIMAPI64.dll', dependency of 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PySide6\\plugins\\sqldrivers\\qsqlmimer.dll'.
+67236 WARNING: Library not found: could not resolve 'OCI.dll', dependency of 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PySide6\\plugins\\sqldrivers\\qsqloci.dll'.
+67237 WARNING: Library not found: could not resolve 'LIBPQ.dll', dependency of 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PySide6\\plugins\\sqldrivers\\qsqlpsql.dll'.
+67240 WARNING: Library not found: could not resolve 'Qt6QuickShapesDesignHelpers.dll', dependency of 'C:\\Program Files\\Tencent\\Marvis\\MarvisAgent\\1.0.1100.340\\runtime\\python311\\Lib\\site-packages\\PySide6\\qml\\QtQuick\\Shapes\\DesignHelpers\\qtquickshapesdesignhelpersplugin.dll'.
+67444 INFO: Warnings written to G:\ETestingCenter\build\ETestingCenterCN\warn-ETestingCenterCN.txt
+67487 INFO: Graph cross-reference written to G:\ETestingCenter\build\ETestingCenterCN\xref-ETestingCenterCN.html
+68503 INFO: checking PYZ
+68518 INFO: Building because G:\ETestingCenter\src\etesting_center\engine\models.py changed
+68518 INFO: Building PYZ (ZlibArchive) G:\ETestingCenter\build\ETestingCenterCN\PYZ-00.pyz
+69806 INFO: Building PYZ (ZlibArchive) G:\ETestingCenter\build\ETestingCenterCN\PYZ-00.pyz completed successfully.
+69998 INFO: checking PKG
+69998 INFO: Building because G:\ETestingCenter\build\ETestingCenterCN\PYZ-00.pyz changed
+69999 INFO: Building PKG (CArchive) ETestingCenterCN.pkg
+70697 INFO: Building PKG (CArchive) ETestingCenterCN.pkg completed successfully.
+70725 INFO: Bootloader C:\Program Files\Tencent\Marvis\MarvisAgent\1.0.1100.340\runtime\python311\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+70725 INFO: checking EXE
+70728 INFO: Rebuilding EXE-00.toc because pkg is more recent
+70728 INFO: Building EXE from EXE-00.toc
+70729 INFO: Copying bootloader EXE to G:\ETestingCenter\build\ETestingCenterCN\ETestingCenterCN.exe
+70895 INFO: Copying icon to EXE
+70964 INFO: Copying 0 resources to EXE
+70964 INFO: Embedding manifest in EXE
+71029 INFO: Appending PKG archive to EXE
+71553 INFO: Fixing EXE headers
+71850 INFO: Building EXE from EXE-00.toc completed successfully.
+71862 INFO: checking COLLECT
+71871 INFO: Removing dir G:\ETestingCenter\dist\ETestingCenterCN
+73164 INFO: Building COLLECT COLLECT-00.toc
+129229 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+129328 INFO: Build complete! The results are available in: G:\ETestingCenter\dist

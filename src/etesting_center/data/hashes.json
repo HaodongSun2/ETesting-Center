@@ -1,0 +1,51 @@
+[
+  {
+    "sha256": "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f",
+    "md5": "44d88612fea8a8f36de82e1278abb02f",
+    "name": "EICAR.Test.File",
+    "family": "TestFile",
+    "source": "EICAR"
+  },
+  {
+    "sha256": "131f95c51cc819465fa1797f6ccacf9d494aaaff46fa3eac73ae63ffbdfd8267",
+    "md5": "69630e4574ec6798239b91c1e6f727ba",
+    "name": "EICAR.Test.File.ZIP",
+    "family": "TestFile",
+    "source": "EICAR"
+  },
+  {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "md5": "d41d8cd98f00b204e9800998ecf8427e",
+    "name": "Empty.File.Zero.Bytes",
+    "family": "TestFile",
+    "source": "local"
+  },
+  {
+    "sha256": "6b2a6ff3de8c1eec6ef5fa7bb643ad0b29df8ff4b63af4eb098d91cc2a0d9cb4",
+    "md5": "ea3eb8974a3cbc8e85969e4e8e1c620c",
+    "name": "Ransomware.WannaCry.Sample",
+    "family": "WannaCry",
+    "source": "ThreatIntel"
+  },
+  {
+    "sha256": "ed01ebfbc9eb5bbea545af4d01bf5f1071661840480439c6e5babe8e080e41aa",
+    "md5": "db349b97c37d22f5ea1d1841e3c89eb4",
+    "name": "Ransomware.WannaCry.KillSwitch",
+    "family": "WannaCry",
+    "source": "ThreatIntel"
+  },
+  {
+    "sha256": "24d004a104d4d54034dbcffc2a4b19a11f39008a575aa614ea04703480b1022c",
+    "md5": "4222e168f56dba5ce1c8d7c5dd447f68",
+    "name": "Ransomware.Locky.Sample",
+    "family": "Locky",
+    "source": "ThreatIntel"
+  },
+  {
+    "sha256": "7914b16c7ceab912f45e0e3282dad396d9f22a3ec702f5b2acc14eb8ff23bf29",
+    "md5": "9afa06efee9f784b2e634d31f2b47580",
+    "name": "Trojan.Emotet.Sample",
+    "family": "Emotet",
+    "source": "ThreatIntel"
+  }
+]

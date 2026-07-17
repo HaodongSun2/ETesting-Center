@@ -1,0 +1,6 @@
+65 DEPRECATION: Running PyInstaller as admin is not necessary nor sensible. Run PyInstaller from a non-administrator terminal. PyInstaller 7.0 will block this.
+258 INFO: PyInstaller: 6.21.0, contrib hooks: 2026.6
+258 INFO: Python: 3.11.8
+279 INFO: Platform: Windows-10-10.0.26200-SP0
+279 INFO: Python environment: C:\Program Files\Tencent\Marvis\MarvisAgent\1.0.1100.340\runtime\python311
+ERROR: Spec file "ETTestingCenterCN.spec" not found!

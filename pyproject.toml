@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "etesting-center"
+version = "0.1.0"
+description = "Local read-only threat discovery and reporting tool."
+requires-python = ">=3.10"
+dependencies = [
+    "PySide6>=6.7",
+    "yara-python>=4.5",
+]
+
+[project.optional-dependencies]
+build = ["pyinstaller>=6.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
